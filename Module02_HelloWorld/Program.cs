@@ -5,7 +5,20 @@
         static void Main(string[] args)
         {
 
-            
+            //DebugDemo();
+            //System.Console.Write("Indtast navn: ");
+            //var myInput = System.Console.ReadLine();
+            //if (myInput == "Susanne")
+            //{
+            //    System.Console.ForegroundColor = System.ConsoleColor.Cyan;
+            //    System.Console.WriteLine(myInput);
+            //}
+            //else
+            //{
+            //    System.Console.ForegroundColor = System.ConsoleColor.DarkMagenta;
+            //    System.Console.WriteLine(myInput);
+            //}
+
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
@@ -14,7 +27,8 @@
             }
         }
 
-        static void DebugDemo() {
+        static void DebugDemo()
+        {
 
             int i = 10;
             int u = 20;

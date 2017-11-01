@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("Davs du ;-)");
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 System.Console.Write("Press any key to continue . . . ");
