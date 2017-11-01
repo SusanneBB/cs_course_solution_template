@@ -11,7 +11,7 @@ namespace Modul02_HW
         static void Main(string[] args)
         {
             System.Console.WriteLine("Indtast navn");
-            var inName = System.Console.ReadLine();
+            string inName = System.Console.ReadLine();
             System.Console.Write("Velkommen ");
             if (inName == "Nina")
 
