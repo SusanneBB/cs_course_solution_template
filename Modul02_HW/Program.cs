@@ -14,6 +14,7 @@ namespace Modul02_HW
             var inName = System.Console.ReadLine();
             System.Console.Write("Velkommen ");
             if (inName == "Nina")
+
             {
                 System.Console.ForegroundColor = ConsoleColor.DarkMagenta;
             }
