@@ -18,10 +18,12 @@ namespace Module3_arrays
             int[] månedsløn = { 1000, 2000, 3000, 4000, 1000, 2000, 3000, 4000, 1000, 2000, 3000, 4000 };
             double gns;
             gns = månedsløn.Average();
-            for (int i = 0; i < månedsløn.Length; i++)
-            {
-                System.Console.WriteLine(månedsløn[i].ToString("n2"));
-            }
+
+            UdskrivArray(månedsløn, månedsløn.Length);
+            //for (int i = 0; i < månedsløn.Length; i++)
+            //{
+            //    System.Console.WriteLine(månedsløn[i].ToString("n2"));
+            //}
             System.Console.Write("Gennemsnit ");
             System.Console.WriteLine(gns.ToString("n2"));
 
@@ -49,14 +51,15 @@ namespace Module3_arrays
                 }
             }
 
-            for (int i = 0; i < månedsløn.Length; i++)
-            {
-                System.Console.WriteLine(månedsløn[i].ToString("n2"));
-            }
+            //for (int i = 0; i < månedsløn.Length; i++)
+            //{
+            //    System.Console.WriteLine(månedsløn[i].ToString("n2"));
+            //}
 
             UdskrivArray(månedsløn, månedsløn.Length);
 
-             var res = månedsløn.Where(i => i> 0).OrderBy(i => 1) ;
+            månedsløn.OrderBy(i => 1) ;
+
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 System.Console.Write("Press any key to continue . . . ");
