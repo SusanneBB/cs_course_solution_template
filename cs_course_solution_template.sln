@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module3_strenge", "Module3_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module3_10tabel", "Module3_10tabel\Module3_10tabel.csproj", "{1C091E1B-07F1-4ABA-8E2D-28B0A48E0D4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lektie 2 Små metoder", "Lektie 2 Små metoder\Lektie 2 Små metoder.csproj", "{7B4226E4-4855-4BD7-9ADE-681C9BD45AA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +135,10 @@ Global
 		{1C091E1B-07F1-4ABA-8E2D-28B0A48E0D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C091E1B-07F1-4ABA-8E2D-28B0A48E0D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C091E1B-07F1-4ABA-8E2D-28B0A48E0D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B4226E4-4855-4BD7-9ADE-681C9BD45AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4226E4-4855-4BD7-9ADE-681C9BD45AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B4226E4-4855-4BD7-9ADE-681C9BD45AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B4226E4-4855-4BD7-9ADE-681C9BD45AA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -158,6 +164,7 @@ Global
 		{1DAA5DA4-31BD-4E89-926D-6BFF97097FF7} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{C48FE943-761F-49CC-9951-661F14DDFB46} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{1C091E1B-07F1-4ABA-8E2D-28B0A48E0D4D} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{7B4226E4-4855-4BD7-9ADE-681C9BD45AA9} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
