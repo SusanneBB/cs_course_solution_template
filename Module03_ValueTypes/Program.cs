@@ -31,6 +31,27 @@ namespace Module03_ValueTypes
             System.Console.WriteLine(dato.Date.ToString().Substring(1,10));
             Console.WriteLine("mon det virker" + "??");
 
+            DayOfWeek wd = DayOfWeek.Friday;
+            switch (wd)
+            {
+                case DayOfWeek.Sunday:
+                    break;
+                case DayOfWeek.Monday:
+                    break;
+                case DayOfWeek.Tuesday:
+                    break;
+                case DayOfWeek.Wednesday:
+                    break;
+                case DayOfWeek.Thursday:
+                    break;
+                case DayOfWeek.Friday:
+                    break;
+                case DayOfWeek.Saturday:
+                    break;
+                default:
+                    break;
+            }
+
             //@ foran string ignore escape char
             if (System.Diagnostics.Debugger.IsAttached)
             {

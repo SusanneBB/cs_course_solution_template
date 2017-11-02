@@ -35,6 +35,12 @@ namespace Module3_strenge
                 Console.WriteLine(navneArray[i]);
             }
 
+            Console.WriteLine("Her");
+            for (int i = 0; i < navneArray.Length; i++)
+            {
+                Console.Write(navneArray[i] + " ");
+            }
+            Console.WriteLine("");
             string navnPå3Liner = fornavn + "\r\n" + mellemnavn + "\r\n" + efternavn;
             Console.WriteLine("På 3 linier?? " + navnPå3Liner);
 
