@@ -29,7 +29,9 @@ namespace Module03_ValueTypes
             System.Console.Write(" ");
             System.Console.WriteLine(s4);
             System.Console.WriteLine(dato.Date.ToString().Substring(1,10));
+            Console.WriteLine("mon det virker" + "??");
 
+            //@ foran string ignore escape char
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 System.Console.Write("Press any key to continue . . . ");
