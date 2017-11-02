@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{436830D6-E5DF-42FB-83DE-C35685792C04}</ProjectGuid>
+    <ProjectGuid>{1836D05C-CB42-4421-8946-14D5907FEE01}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Module03_variabler</RootNamespace>
-    <AssemblyName>Module03_variabler</AssemblyName>
+    <RootNamespace>Module4_arrays</RootNamespace>
+    <AssemblyName>Module4_arrays</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FilTyper.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

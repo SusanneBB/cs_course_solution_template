@@ -2,20 +2,8 @@
 
 namespace Module03_variabler
 {
-    class Program
+    partial class Program
     {
-        enum FilTyper
-        {
-            csv,
-            psd,
-            txt
-        }
-
-        struct Person
-        {
-            public int Id;
-            public string Navn;
-        }
 
         static void Main(string[] args)
         {
