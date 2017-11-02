@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module03_variabler", "Modul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module3_arrays", "Module4_arrays\Module3_arrays.csproj", "{1836D05C-CB42-4421-8946-14D5907FEE01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lektie 1 person", "Lektie 1 person\Lektie 1 person.csproj", "{1DAA5DA4-31BD-4E89-926D-6BFF97097FF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -115,6 +117,10 @@ Global
 		{1836D05C-CB42-4421-8946-14D5907FEE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1836D05C-CB42-4421-8946-14D5907FEE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1836D05C-CB42-4421-8946-14D5907FEE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DAA5DA4-31BD-4E89-926D-6BFF97097FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAA5DA4-31BD-4E89-926D-6BFF97097FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAA5DA4-31BD-4E89-926D-6BFF97097FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAA5DA4-31BD-4E89-926D-6BFF97097FF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -137,6 +143,7 @@ Global
 		{C52A97BE-6A61-451F-BABB-43137738F976} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{436830D6-E5DF-42FB-83DE-C35685792C04} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{1836D05C-CB42-4421-8946-14D5907FEE01} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{1DAA5DA4-31BD-4E89-926D-6BFF97097FF7} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
