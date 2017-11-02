@@ -5,9 +5,15 @@
         static void Main(string[] args)
         {
 
-
-
-
+            int i = 2;
+            System.Console.WriteLine(i);
+            i = MyMethod(ref i);
+            int MyMethod (ref int j)
+            {
+                j = j * j;
+                return j;
+            }
+            System.Console.WriteLine(i);
 
 
             if (System.Diagnostics.Debugger.IsAttached)
