@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module06_classes", "Module0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module06_Terning", "Module06_Terning\Module06_Terning.csproj", "{F8CDFB31-0B8A-4662-98AC-37075EAD17EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module07_vare", "Module07_vare\Module07_vare.csproj", "{1D53E449-AA8F-4DD6-A05A-6168BBF3729C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,6 +165,10 @@ Global
 		{F8CDFB31-0B8A-4662-98AC-37075EAD17EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8CDFB31-0B8A-4662-98AC-37075EAD17EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8CDFB31-0B8A-4662-98AC-37075EAD17EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D53E449-AA8F-4DD6-A05A-6168BBF3729C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D53E449-AA8F-4DD6-A05A-6168BBF3729C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D53E449-AA8F-4DD6-A05A-6168BBF3729C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D53E449-AA8F-4DD6-A05A-6168BBF3729C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -193,6 +199,7 @@ Global
 		{CCACFE8B-9765-4B6C-A98D-4101837FE151} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{12008655-DC4D-44C2-8223-22218D4924CE} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{F8CDFB31-0B8A-4662-98AC-37075EAD17EC} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{1D53E449-AA8F-4DD6-A05A-6168BBF3729C} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
