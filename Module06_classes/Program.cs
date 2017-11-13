@@ -22,6 +22,14 @@ namespace Module06_classes
             Console.WriteLine("Navn " + Nina.FuldtNavn(Nina));
             Console.WriteLine("Alder ca. " + Nina.Alder(Nina).ToString());
 
+            var Sofia = new Person2();
+            Sofia.SetEfternavn("Pedersen");
+            Sofia.SetFornavn("Sofia Brogaard");
+            Sofia.SetFødselsår(1997);
+            Console.WriteLine("Navn " + Sofia.FuldtNavn());
+            Console.WriteLine("Alder ca. " + Sofia.Alder().ToString());
+
+
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 System.Console.Write("Press any key to continue . . . ");
