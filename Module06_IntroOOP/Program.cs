@@ -11,6 +11,8 @@ namespace Module06_IntroOOP
         static void Main(string[] args)
         {
 
+            // const : thi.(a,b,...) kalder anden construktor
+
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 System.Console.Write("Press any key to continue . . . ");

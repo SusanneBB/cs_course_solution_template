@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lektie 3 arrays", "Lektie 3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lektie 4 Overload", "Lektie 4 Overload\Lektie 4 Overload.csproj", "{CCACFE8B-9765-4B6C-A98D-4101837FE151}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module06_classes", "Module06_classes\Module06_classes.csproj", "{12008655-DC4D-44C2-8223-22218D4924CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +153,10 @@ Global
 		{CCACFE8B-9765-4B6C-A98D-4101837FE151}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCACFE8B-9765-4B6C-A98D-4101837FE151}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCACFE8B-9765-4B6C-A98D-4101837FE151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12008655-DC4D-44C2-8223-22218D4924CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12008655-DC4D-44C2-8223-22218D4924CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12008655-DC4D-44C2-8223-22218D4924CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12008655-DC4D-44C2-8223-22218D4924CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -179,6 +185,7 @@ Global
 		{7B4226E4-4855-4BD7-9ADE-681C9BD45AA9} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{442C53FA-F557-4D70-84B8-5A46A2B6CC5D} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{CCACFE8B-9765-4B6C-A98D-4101837FE151} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{12008655-DC4D-44C2-8223-22218D4924CE} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
