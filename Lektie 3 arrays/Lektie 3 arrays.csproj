@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7B4226E4-4855-4BD7-9ADE-681C9BD45AA9}</ProjectGuid>
+    <ProjectGuid>{442C53FA-F557-4D70-84B8-5A46A2B6CC5D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Lektie_2_Små_metoder</RootNamespace>
     <AssemblyName>Lektie 2 Små metoder</AssemblyName>

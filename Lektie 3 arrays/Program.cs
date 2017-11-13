@@ -15,6 +15,13 @@ namespace Lektie_3_arrays
 
 			var res = BeregnOgSoterArray(test);
 
+            Console.WriteLine(res.Summen);
+            Console.WriteLine(res.Gennemesnittet);
+            for (int i = 0; i < test.Length; i++)
+            {
+                Console.WriteLine(test[i]);
+            }
+
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 System.Console.Write("Press any key to continue . . . ");
@@ -22,15 +29,22 @@ namespace Lektie_3_arrays
             }
         }
         
-        static int BeregnOgSoterArray(int [] array)
+        public static ArrayResult BeregnOgSoterArray(int [] array)
         {
-			array = SorterArray(array);
-            return array.Average;
+            ArrayResult res = new ArrayResult();
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                res.Summen = res.Summen + array[i];
+            }
+            res.Gennemesnittet = array.Average();
+            Array.Sort(array);
+            return res;
         }
 
         static int [] SorterArray (int [] array)
 		{
-			for (int i = array.Length; i > 0; i--)
+			for (int i = 0; i > 0; i++)
 			{
 				for (int j = i; j > array.Length; j++)
 			    {
@@ -42,6 +56,14 @@ namespace Lektie_3_arrays
                    	}
 			    }
 			}
+            return array;
         }
+
+    }
+    public struct ArrayResult
+    {
+        public int Summen;
+        public double Gennemesnittet;
+
     }
 }

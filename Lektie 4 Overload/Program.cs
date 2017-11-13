@@ -11,6 +11,9 @@ namespace Lektie_3_arrays
         static void Main(string[] args)
         {
 
+            Console.WriteLine(Beregn(1,2));
+            Console.WriteLine(Beregn(1,2,3));
+            Console.WriteLine(Beregn(1,2,3,4));
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 System.Console.Write("Press any key to continue . . . ");
@@ -28,8 +31,9 @@ namespace Lektie_3_arrays
             }
         static int Beregn (int a, int b, int c, int d)
 			{
-            return a+b+c+d;
-			//return (Beregn (a, Beregn (c, Beregn(c,d))));
-            }
+            //return a+b+c+d;
+            //return (Beregn(a, Beregn(b, Beregn(c, d))));
+            return Beregn(a, b) + Beregn(c, d);
+        }
     }
 }
