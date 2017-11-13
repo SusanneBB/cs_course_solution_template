@@ -15,11 +15,11 @@ namespace Lektie_3_arrays
 
 			var res = BeregnOgSoterArray(test);
 
-            Console.WriteLine(res.Summen);
-            Console.WriteLine(res.Gennemesnittet);
+            Console.WriteLine("Summen er "+ res.Summen);
+            Console.WriteLine("Gennemsnit er " + res.Gennemesnittet.ToString("N2"));
             for (int i = 0; i < test.Length; i++)
             {
-                Console.WriteLine(test[i]);
+                Console.WriteLine("Array[" + i + "] " + test[i].ToString().PadLeft(2,' '));
             }
 
             if (System.Diagnostics.Debugger.IsAttached)

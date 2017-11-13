@@ -11,9 +11,9 @@ namespace Lektie_3_arrays
         static void Main(string[] args)
         {
 
-            Console.WriteLine(Beregn(1,2));
-            Console.WriteLine(Beregn(1,2,3));
-            Console.WriteLine(Beregn(1,2,3,4));
+            Console.WriteLine("Sum af 1 og 2 = " + Beregn(1,2));
+            Console.WriteLine("Sum af 1,2 og 3 =" + Beregn(1,2,3));
+            Console.WriteLine("Sum af 1,2,3 og 4 = " +Beregn(1,2,3,4));
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 System.Console.Write("Press any key to continue . . . ");
