@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Module07_trekant
 {
-    class Trekant
+   public class Trekant
     {
         public int Grundlinje { get; private set; }
 

@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module07_vare", "Module07_v
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module07_trekant", "Module07_trekant\Module07_trekant.csproj", "{8C886139-F1A3-4694-B50C-1FCD6F5A617E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module07_TrekantsTest", "TrekantsTest\Module07_TrekantsTest.csproj", "{3BE4FAFA-D157-4729-947E-22212EDD77D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -175,6 +177,10 @@ Global
 		{8C886139-F1A3-4694-B50C-1FCD6F5A617E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C886139-F1A3-4694-B50C-1FCD6F5A617E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C886139-F1A3-4694-B50C-1FCD6F5A617E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE4FAFA-D157-4729-947E-22212EDD77D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE4FAFA-D157-4729-947E-22212EDD77D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE4FAFA-D157-4729-947E-22212EDD77D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE4FAFA-D157-4729-947E-22212EDD77D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -207,6 +213,7 @@ Global
 		{F8CDFB31-0B8A-4662-98AC-37075EAD17EC} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{1D53E449-AA8F-4DD6-A05A-6168BBF3729C} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{8C886139-F1A3-4694-B50C-1FCD6F5A617E} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{3BE4FAFA-D157-4729-947E-22212EDD77D3} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
