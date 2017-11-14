@@ -8,27 +8,33 @@ namespace Lektie_kap_7_Yatzy
 {
     public class Terning
     {
+        private static Random rnd = new Random();
+
         private int værdi;
+        public int Værdi
+        {
+            get { return værdi; }
+            set
+            {
+                if ((value < 1) || (value > 6))
+                {
+                    værdi = 1;
+                }
+                else
+                {
+                    værdi = value;
+                }
+            }
+        }
 
-        //public int Værdi
-        //{
-        //    //get { return værdi; }
-        //    //set {
-        //    //    if (true)
-        //    //    {
+        public void Ryst()
+        {
+            Værdi = rnd.Next(1, 7);
+        }
 
-        //    //    }
-        //    //    if ((value < 1) !! (value > 6))
-        //    //    {
-        //    //        værdi = value;
-        //    //    } 
-        //    //    else
-	       //    // {
-        //    //        værdi = value;
-        //    //    }
-        //}
-
-
-
+        public string Skriv()
+        {
+            return $"[{Værdi}]";
+        }
     }
 }
