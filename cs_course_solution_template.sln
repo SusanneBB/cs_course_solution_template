@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module08_ArvRandom", "Modul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module09_exceptions", "Module09_exceptions\Module09_exceptions.csproj", "{69A48C64-DDCF-488F-BA62-8F4DEE45CCDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LektieModule10_NLog", "LektieModule10_SimpelFejlhåndtering\LektieModule10_NLog.csproj", "{CA05BA71-1C3C-4C3D-A188-85D6A8760314}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +219,10 @@ Global
 		{69A48C64-DDCF-488F-BA62-8F4DEE45CCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69A48C64-DDCF-488F-BA62-8F4DEE45CCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69A48C64-DDCF-488F-BA62-8F4DEE45CCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA05BA71-1C3C-4C3D-A188-85D6A8760314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA05BA71-1C3C-4C3D-A188-85D6A8760314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA05BA71-1C3C-4C3D-A188-85D6A8760314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA05BA71-1C3C-4C3D-A188-85D6A8760314}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -256,6 +262,7 @@ Global
 		{1E398015-EAAB-40C0-926D-C154A8C9D68A} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{7E33313D-3C8D-4051-9AF8-3C24879AFCDF} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{69A48C64-DDCF-488F-BA62-8F4DEE45CCDE} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{CA05BA71-1C3C-4C3D-A188-85D6A8760314} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
