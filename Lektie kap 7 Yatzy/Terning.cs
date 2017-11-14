@@ -10,12 +10,23 @@ namespace Lektie_kap_7_Yatzy
     {
         private static Random rnd = new Random();
 
+        public Terning()
+        {
+
+        }
+        public Terning(int værdi)
+        {
+            Værdi = værdi;
+        }
         private int værdi;
         public int Værdi
         {
-            get { return værdi; }
+            get {
+                Console.WriteLine($"Nu aflæses værdien.");
+                return værdi; }
             set
             {
+                Console.WriteLine($"Nu tildeles en værdi");
                 if ((value < 1) || (value > 6))
                 {
                     værdi = 1;
@@ -32,9 +43,9 @@ namespace Lektie_kap_7_Yatzy
             Værdi = rnd.Next(1, 7);
         }
 
-        public string Skriv()
+        public void Skriv()
         {
-            return $"[{Værdi}]";
+            Console.WriteLine($"[{Værdi}]");
         }
     }
 }
