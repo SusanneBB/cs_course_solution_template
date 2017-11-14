@@ -19,13 +19,18 @@ namespace Module08_PolymorfiDyr
         public static Dyr TilfældigtDyr()
         {
             Dyr dyr;
-            int j = rnd.Next(1, 3);
-            if (j == 1)
-            {                dyr = new Hund();
+
+            string sti = @"x:\dyrenavne.txt";
+            string[] navne = System.IO.File.ReadAllLines(sti);
+
+            int j = rnd.Next(1, 21);
+            if (j % 2 == 0)
+            {
+                dyr = new Hund(navne[j]);
             }
             else
 	        {
-                dyr = new Kat();
+                dyr = new Kat(navne[j]);
             }
             return dyr;
         }
