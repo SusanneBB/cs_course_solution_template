@@ -13,7 +13,8 @@ namespace Module08_Arv
 
         public string FuldtNavn()
         {
-            return Fornavn + " " + Efternavn;
+            //return Fornavn + " " + Efternavn;
+            return $"{Fornavn} {Efternavn}";
         }
     }
 }
