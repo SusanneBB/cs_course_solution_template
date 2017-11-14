@@ -17,6 +17,9 @@ namespace Module09_exceptions
             catch (Exception ex)
             {
                 Console.WriteLine($"Der er sket en fejl: {ex.Message}");
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.WriteLine($" GØR DOG SOM DER BLIVER SAGT!!");
+                Console.ForegroundColor = ConsoleColor.White;
             }
 
             if (System.Diagnostics.Debugger.IsAttached)
