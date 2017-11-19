@@ -20,7 +20,7 @@ namespace Lektie_9._1_Summeringsopgave
             CprNummer = cprnummer;
         }
 
-        private string Navn;
+        protected string Navn;
 
         public string navn
         {
@@ -28,14 +28,14 @@ namespace Lektie_9._1_Summeringsopgave
             set { Navn = value; }
         }
 
-        protected string CprNummer;
+        public string CprNummer;
 
         public virtual void Skriv()
         {
-            Console.WriteLine($"Navn: [{Navn}] med CPR [{CprNummer}]");
+            Console.WriteLine($"Navn: {Navn} med CPR {CprNummer}");
         }
 
-        static bool CprOK(string cpr)
+        public static bool CprOK(string cpr)
         {
             bool KunTalOgBindestreg = true;
 

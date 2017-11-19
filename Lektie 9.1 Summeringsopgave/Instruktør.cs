@@ -8,6 +8,21 @@ namespace Lektie_9._1_Summeringsopgave
 {
     class Instruktør : KursusDeltager
     {
-        public st MyProperty { get; set; }
+        public Instruktør() : base()
+        {
+            Nøgle = "";
+        }
+
+        public Instruktør(string navn, string cprnummer, string nøgle) : base(navn, cprnummer)
+        {
+            Nøgle = nøgle;
+        }
+
+        public string Nøgle { get; set; }
+
+        public override void Skriv()
+        {
+            Console.WriteLine($"Navn {Navn} med CPR {CprNummer} og nøgle {Nøgle}"); 
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace Lektie_9._1_Summeringsopgave
         protected KursusDeltager() : base()
         { }
 
-        protected KursusDeltager(string navn, string cprnummer) : base(navn, cprnummer)
+        public KursusDeltager(string navn, string cprnummer) : base(navn, cprnummer)
         { }
     }
 }
