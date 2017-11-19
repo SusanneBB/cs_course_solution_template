@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LektieModule10_NLog", "Lekt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lektie 7.2 Bæger og Terning", "Lektie 7.2 Bæger og Terning\Lektie 7.2 Bæger og Terning.csproj", "{173B1F2A-CC76-4640-B620-54D4DCDA73E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lektie 9.1 Summeringsopgave", "Lektie 9.1 Summeringsopgave\Lektie 9.1 Summeringsopgave.csproj", "{2B493704-8D41-4820-8F25-CDC73A986FC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -229,6 +231,10 @@ Global
 		{173B1F2A-CC76-4640-B620-54D4DCDA73E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{173B1F2A-CC76-4640-B620-54D4DCDA73E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{173B1F2A-CC76-4640-B620-54D4DCDA73E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B493704-8D41-4820-8F25-CDC73A986FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B493704-8D41-4820-8F25-CDC73A986FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B493704-8D41-4820-8F25-CDC73A986FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B493704-8D41-4820-8F25-CDC73A986FC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -270,6 +276,7 @@ Global
 		{69A48C64-DDCF-488F-BA62-8F4DEE45CCDE} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{CA05BA71-1C3C-4C3D-A188-85D6A8760314} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{173B1F2A-CC76-4640-B620-54D4DCDA73E5} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{2B493704-8D41-4820-8F25-CDC73A986FC8} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
