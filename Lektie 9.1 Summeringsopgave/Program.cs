@@ -44,13 +44,20 @@ namespace Lektie_9._1_Summeringsopgave
                 Console.WriteLine($"Cpr nummer {e.CprNummer} er ikke OK");
             }
 
+            Person[] pa = new Person[3];
+            pa[0] = new KursusDeltager("Susanne", "123456-7890");
+            pa[1] = new Instruktør("Michel", "234567-8901", "Key");
+            pa[2] = new Elev("Hr Hansen", "456789-0123", "42");
+            for (int j   = 0; j < pa.Length; j++)
+            {
+                pa[j].Skriv();
+            }
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 System.Console.Write("Press any key to continue . . . ");
                 System.Console.ReadKey();
             }
-
         }
     }
 }
