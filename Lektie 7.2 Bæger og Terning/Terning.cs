@@ -10,7 +10,7 @@ namespace Lektie_7._2_Bæger_og_Terning
     {
         private int Værdi;
 
-        protected static Random rnd = new Random();
+        private static Random rnd = new Random();
 
         public Terning(int værdi)
         {
