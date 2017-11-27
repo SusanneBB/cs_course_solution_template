@@ -35,5 +35,49 @@ namespace Lektie_7._2_Bæger_og_Terning
             }
             Console.WriteLine();
         }
+
+        //private bool FemEns()
+        //{
+
+        //}
+        //private bool FireEns()
+        //{
+
+        //}
+        //private bool TreEns()
+        //{
+
+        //}
+        //private bool Par()
+        //{
+
+        //}
+        //private bool ToPar()
+        //{
+
+        //}
+        //private bool Hus()
+        //{
+
+        //}
+        //private bool Lille()
+        //{
+
+        //}
+        //private bool Stor()
+        //{
+
+        //}
+        //private bool Yatzy()
+        //{
+
+        //}
+
+
+
+
+
+
+
     }
 }
