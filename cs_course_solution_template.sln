@@ -87,6 +87,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilApp", "BilApp\BilApp.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 10 Interface", "Module 10 Interface\Module 10 Interface.csproj", "{0F52E9D2-6763-42A9-AF91-D201570E64F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 10 compare", "Module 10 compare\Module 10 compare.csproj", "{074362CD-EB44-4388-8A1F-F888754435EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -253,6 +255,10 @@ Global
 		{0F52E9D2-6763-42A9-AF91-D201570E64F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F52E9D2-6763-42A9-AF91-D201570E64F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F52E9D2-6763-42A9-AF91-D201570E64F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074362CD-EB44-4388-8A1F-F888754435EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074362CD-EB44-4388-8A1F-F888754435EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074362CD-EB44-4388-8A1F-F888754435EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074362CD-EB44-4388-8A1F-F888754435EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -298,6 +304,7 @@ Global
 		{93DDAF0F-E2BD-448B-AAD7-BA4EF16A92DD} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{27939725-B767-49A7-829C-33AE5FA0F21E} = {614BAE00-84EB-47BC-8C41-71B6E2131A8C}
 		{0F52E9D2-6763-42A9-AF91-D201570E64F7} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{074362CD-EB44-4388-8A1F-F888754435EA} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
