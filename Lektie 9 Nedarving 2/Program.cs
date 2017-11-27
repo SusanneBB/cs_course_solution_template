@@ -15,6 +15,13 @@ namespace Lektie_9_Nedarving_2
 
             t.Print();
             t2.Print();
+
+            LudoTerning l = new LudoTerning(5);
+            LudoTerning l2 = new LudoTerning();
+            LudoTerning l3 = new LudoTerning(3);
+            l.Print();
+            l2.Print();
+            l3.Print();
         }
     }
 }

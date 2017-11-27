@@ -26,6 +26,25 @@ namespace Lektie_9_Nedarving_2
         {
             return (Værdi == 5);
         }
-        
+
+        public override void Print()
+        {
+            if (ErGlobus())
+            {
+                Console.WriteLine("[O]");
+            }
+            else
+            {
+                if (ErStjerne())
+                {
+                    Console.WriteLine("[*]");
+                }
+                else
+                {
+                    base.Print();
+                }
+            }
+            
+        }
     }
 }

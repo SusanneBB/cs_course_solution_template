@@ -23,7 +23,10 @@ namespace Lektie_9_Nedarving_2
 
        public int Værdi
         {
-            get { return værdi; }
+            get {
+                Console.WriteLine($"Nu læses værdien {værdi}");
+                return værdi;
+                }
             set
             {
                 if (value > 0 & value < 7)
@@ -34,6 +37,7 @@ namespace Lektie_9_Nedarving_2
                 {
                     værdi = 1;
                 }
+            Console.WriteLine($"Sættes til {value}");
             }
         }
 
@@ -42,7 +46,7 @@ namespace Lektie_9_Nedarving_2
             return rnd.Next(1, 7);
         }
 
-        public void Print()
+        public virtual void Print()
         {
             Console.WriteLine($"[{Værdi}]");
         }
