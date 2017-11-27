@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module01_CS", "Module01_CS\Module01_CS.csproj", "{ED61EF61-2518-4358-9274-AF90546F16DC}"
 EndProject
@@ -80,6 +80,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lektie 7.2 Bæger og Terning", "Lektie 7.2 Bæger og Terning\Lektie 7.2 Bæger og Terning.csproj", "{173B1F2A-CC76-4640-B620-54D4DCDA73E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lektie 9.1 Summeringsopgave", "Lektie 9.1 Summeringsopgave\Lektie 9.1 Summeringsopgave.csproj", "{2B493704-8D41-4820-8F25-CDC73A986FC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lektie 9 Nedarving 2", "Lektie 9 Nedarving 2\Lektie 9 Nedarving 2.csproj", "{93DDAF0F-E2BD-448B-AAD7-BA4EF16A92DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilApp", "BilApp\BilApp.csproj", "{27939725-B767-49A7-829C-33AE5FA0F21E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -235,6 +239,14 @@ Global
 		{2B493704-8D41-4820-8F25-CDC73A986FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B493704-8D41-4820-8F25-CDC73A986FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B493704-8D41-4820-8F25-CDC73A986FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DDAF0F-E2BD-448B-AAD7-BA4EF16A92DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DDAF0F-E2BD-448B-AAD7-BA4EF16A92DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DDAF0F-E2BD-448B-AAD7-BA4EF16A92DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DDAF0F-E2BD-448B-AAD7-BA4EF16A92DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27939725-B767-49A7-829C-33AE5FA0F21E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27939725-B767-49A7-829C-33AE5FA0F21E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27939725-B767-49A7-829C-33AE5FA0F21E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27939725-B767-49A7-829C-33AE5FA0F21E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -277,6 +289,8 @@ Global
 		{CA05BA71-1C3C-4C3D-A188-85D6A8760314} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{173B1F2A-CC76-4640-B620-54D4DCDA73E5} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{2B493704-8D41-4820-8F25-CDC73A986FC8} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{93DDAF0F-E2BD-448B-AAD7-BA4EF16A92DD} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{27939725-B767-49A7-829C-33AE5FA0F21E} = {614BAE00-84EB-47BC-8C41-71B6E2131A8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
