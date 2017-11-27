@@ -8,21 +8,31 @@ namespace Lektie_9_Nedarving_2
 {
     class Terning
     {
+        public Terning()
+        {
+            værdi = Ryst();
+        }
+
+        public Terning(int værdi)
+        {
+            this.Værdi = værdi;
+        }
+
         private static Random rnd = new Random();
         private int værdi;
 
        public int Værdi
         {
-            get { return Værdi; }
+            get { return værdi; }
             set
             {
                 if (value > 0 & value < 7)
                 {
-                    Værdi = value;
+                    værdi = value;
                 }
                 else
                 {
-                    Værdi = 1;
+                    værdi = 1;
                 }
             }
         }
@@ -32,5 +42,9 @@ namespace Lektie_9_Nedarving_2
             return rnd.Next(1, 7);
         }
 
+        public void Print()
+        {
+            Console.WriteLine($"[{Værdi}]");
+        }
     }
 }

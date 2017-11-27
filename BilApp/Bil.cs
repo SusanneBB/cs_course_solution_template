@@ -42,21 +42,5 @@ namespace BilApp
             }
         }
 
-
-        public class Personbil : Bil
-        {
-            public int AntalBarneSæder { get; set; }
-
-            public override void Print()
-            {
-                Console.WriteLine("Personbil : " + this.Model); ;
-            }
-        }
-
-        public class Lastbil : Bil
-        {
-            public int LasteEvne { get; set; }
-        }
-
     }
 }

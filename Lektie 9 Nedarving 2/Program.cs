@@ -10,6 +10,11 @@ namespace Lektie_9_Nedarving_2
     {
         static void Main(string[] args)
         {
+            Terning t = new Terning(6);
+            Terning t2 = new Terning();
+
+            t.Print();
+            t2.Print();
         }
     }
 }

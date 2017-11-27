@@ -1,14 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BilApp
 {
-    public class Personbil 
+    partial class Program
     {
-        public int AntalBarneSæder { get; set; }
+        public class Personbil : Bil
+        {
+            public int AntalBarneSæder { get; set; }
+
+            public override void Print()
+            {
+                Console.WriteLine("Personbil : " + this.Model); ;
+            }
+        }
 
     }
 }

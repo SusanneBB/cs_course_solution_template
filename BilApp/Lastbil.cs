@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BilApp
+﻿namespace BilApp
 {
-    public class Lastbil
+    partial class Program
     {
-    public int LasteEvne { get; set; }
-}
+        public class Lastbil : Bil
+        {
+            public int LasteEvne { get; set; }
+        }
+
+    }
 }
