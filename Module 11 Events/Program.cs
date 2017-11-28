@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Module_11_Events
+namespace Module_12_Events
 {
     class Program
     {
         static void Main(string[] args)
         {
             Kunde k = new Kunde() { Navn = "Susanne", KreditMax = -500 };
-            k.KreditOverskredet += (s, e) => { Console.WriteLine($"Krediten er overskredet for {k.Navn}"); };
+            k.KreditOverskredet += (s, e) => { Console.WriteLine($"Krediten er overskredet for { (s as Kunde).Navn}");};
             k.Køb(100);
             Console.WriteLine("Saldo er nu " + k.Saldo.ToString());
             k.Køb(401);

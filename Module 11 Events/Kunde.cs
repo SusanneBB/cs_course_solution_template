@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Module_11_Events
+namespace Module_12_Events
 {
     class Kunde
     {

@@ -103,7 +103,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lektie 11 Generisk metode",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 11 Delegates", "Module 11 Delegates\Module 11 Delegates.csproj", "{7E25FF24-DAB7-4EEE-952E-1B50804D31DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 11 Events", "Module 11 Events\Module 11 Events.csproj", "{4AD910D4-D29C-43F3-A226-389A66B63FFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 12 Events", "Module 11 Events\Module 12 Events.csproj", "{4AD910D4-D29C-43F3-A226-389A66B63FFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 12 Ændring i fil", "Module 12 Ændring i fil\Module 12 Ændring i fil.csproj", "{042FE98B-C7C1-4912-889F-3C6478545943}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -307,6 +309,10 @@ Global
 		{4AD910D4-D29C-43F3-A226-389A66B63FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AD910D4-D29C-43F3-A226-389A66B63FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AD910D4-D29C-43F3-A226-389A66B63FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042FE98B-C7C1-4912-889F-3C6478545943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042FE98B-C7C1-4912-889F-3C6478545943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042FE98B-C7C1-4912-889F-3C6478545943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042FE98B-C7C1-4912-889F-3C6478545943}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -361,6 +367,7 @@ Global
 		{BBF95AED-6494-42FB-BC75-42C5AE382B6A} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{7E25FF24-DAB7-4EEE-952E-1B50804D31DD} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{4AD910D4-D29C-43F3-A226-389A66B63FFA} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{042FE98B-C7C1-4912-889F-3C6478545943} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
