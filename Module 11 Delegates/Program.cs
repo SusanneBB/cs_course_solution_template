@@ -18,6 +18,7 @@ namespace Module_11_Delegates
             Console.WriteLine($"{i}-{j} = " + Beregner(i, j, Minus));
             Console.WriteLine($"{i}/{j} = " + Beregner(i, j, Divider));
             Console.WriteLine($"{i}*{j} = " + Beregner(i, j, Gange));
+            Console.WriteLine($"{i}+({j}*{i}) = " + Beregner(i,j,(x,y) => x+(y*x)));
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
