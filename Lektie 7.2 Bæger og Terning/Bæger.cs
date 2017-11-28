@@ -9,6 +9,7 @@ namespace Lektie_7._2_Bæger_og_Terning
     class Bæger
     {
         private Terning[] Terninger = new Terning[5];
+        private int[] Counter = new int[6];
 
         public Bæger()
         {
@@ -36,10 +37,45 @@ namespace Lektie_7._2_Bæger_og_Terning
             Console.WriteLine();
         }
 
-        //private bool FemEns()
-        //{
+        public void SorterBærger()
+        {
+            Array.Sort(Terninger);
+        }
 
-        //}
+        public void TælEns()
+        {
+            for (int i = 0; i < Counter.Length; i++)
+            {
+                Counter[i] = 0;
+            }
+
+            for (int i = 0; i < Terninger.Length; i++)
+            {
+                //switch (Terninger[i].værdi)
+                //{
+                //    case 1: Counter[Terninger[i].værdi] = Counter[Terninger[i].værdi] + 1;
+                //    case 2
+                //    case 3
+                //    case 4
+                //    case 5
+                //    case 6
+                //    default:
+                //        break;
+                //}
+            }
+        }
+        private bool FemEns()
+        {
+            for (int i = 1; i < Terninger.Length; i++)
+            {
+                if (Terninger[i] != Terninger[i-1])
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
         //private bool FireEns()
         //{
 
@@ -67,9 +103,6 @@ namespace Lektie_7._2_Bæger_og_Terning
         //private bool Stor()
         //{
 
-        //}
-        //private bool Yatzy()
-        //{
 
         //}
 

@@ -101,6 +101,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lektie 11 generisk klasse",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lektie 11 Generisk metode", "Lektie 11 Generisk metode\Lektie 11 Generisk metode.csproj", "{BBF95AED-6494-42FB-BC75-42C5AE382B6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 11 Delegates", "Module 11 Delegates\Module 11 Delegates.csproj", "{7E25FF24-DAB7-4EEE-952E-1B50804D31DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -295,6 +297,10 @@ Global
 		{BBF95AED-6494-42FB-BC75-42C5AE382B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBF95AED-6494-42FB-BC75-42C5AE382B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBF95AED-6494-42FB-BC75-42C5AE382B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E25FF24-DAB7-4EEE-952E-1B50804D31DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E25FF24-DAB7-4EEE-952E-1B50804D31DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E25FF24-DAB7-4EEE-952E-1B50804D31DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E25FF24-DAB7-4EEE-952E-1B50804D31DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -347,6 +353,7 @@ Global
 		{3A23AAB4-4774-45C6-9CEA-D07ACB3D67C2} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{DA4B5E98-C360-414B-9C30-F13AEF89B536} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{BBF95AED-6494-42FB-BC75-42C5AE382B6A} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{7E25FF24-DAB7-4EEE-952E-1B50804D31DD} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
